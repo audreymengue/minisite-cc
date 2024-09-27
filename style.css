@@ -1,0 +1,137 @@
+/* CSS */
+.button-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+     background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-10:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+
+  li i{
+    font-size: 30px;
+    display: block;
+    cursor: pointer;
+    /* background-color: aqua; */
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .fa-linkedin-in{
+    color: #4B91F7;
+  }
+
+  .fa-meta {
+    color: #4B91F7;
+  }
+
+  .fa-x-twitter {
+    color: black;
+  }
+
+  .fa-instagram {
+    color: pink;
+  }
+
+  .li2 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 20px;
+  }
+
+  .li2 i {
+    margin-right: 20px;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) { 
+    
+  .button-10 { /* Add responsive styles for .button-10 here */ }
+
+  ul { /* Add responsive styles for ul here */ }
+  
+  li { /* Add responsive styles for li here */ }
+  
+  li i { /* Add responsive styles for li i here */ }
+  
+  .li2 { /* Add responsive styles for .li2 here */ }
+  
+  .li2 i { /* Add responsive styles for .li2 i here */ } }
+
+  .carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:focus {
+    outline: none;
+}
